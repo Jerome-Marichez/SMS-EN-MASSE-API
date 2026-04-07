@@ -24,9 +24,14 @@ export class SmsService {
   }
 
   async sendSms(dto: CreateSmsDto): Promise<SendSmsResponse> {
-    const response = await this.client.post<SendSmsResponse>('/api/v1/sms', dto);
-    this.logger.log(`SMS sent — campaignId: ${response.data.campagneId}`);
-    return response.data;
+    try {
+      const response = await this.client.post<SendSmsResponse>('/api/v1/sms', dto);
+      this.logger.log(`SMS sent — campaignId: ${response.data.campagneId}`);
+      return response.data;
+    } catch (err: any) {
+      this.logger.error(`SmsEnMasse error — status: ${err.response?.status}, data: ${JSON.stringify(err.response?.data)}`);
+      throw err;
+    }
   }
 
   async listSms(params?: SmsListParams): Promise<Campagnesms[]> {
