@@ -21,6 +21,11 @@ Each subfolder is a self-contained example demonstrating a specific use case of 
 
 ---
 
+## Contribution rules
+
+- Commit messages follow the format `type: description` (e.g. `feat: ...`, `fix: ...`).
+- No AI tool (GitHub Copilot, Claude, ChatGPT, etc.) must be mentioned in commits, PRs, issues, or any other trace visible on the remote repository.
+
 ---
 
 # SMS-EN-MASSE-API — Ressources & Exemples
@@ -43,3 +48,10 @@ Chaque sous-dossier est un exemple autonome illustrant un cas d'usage spécifiqu
 
 - Référence complète : [https://api.smsenmasse.fr/docs](https://api.smsenmasse.fr/docs)
 - Obtenir votre clé API : [https://www.smsenmasse.fr/v1/account-settings](https://www.smsenmasse.fr/v1/account-settings)
+
+---
+
+## Règles de contribution
+
+- Les messages de commit suivent le format `type: description` (ex: `feat: ...`, `fix: ...`).
+- Aucun outil d'IA (GitHub Copilot, Claude, ChatGPT, etc.) ne doit être mentionné dans les commits, les PR, les issues ou toute autre trace visible sur le dépôt distant.
