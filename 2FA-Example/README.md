@@ -1,6 +1,6 @@
 # SmsEnMasse — 2FA Login Example (Node.js / NestJS)
 
-> A minimal example showing how to use the [SmsEnMasse API](https://api.smsenmasse.fr/docs) to build SMS-based two-factor authentication (2FA).
+> A minimal example showing how to use the [SmsEnMasse API](https://api-staging.smsenmasse.fr/docs) to build SMS-based two-factor authentication (2FA).
 
 ---
 
@@ -389,6 +389,6 @@ PORT=3000
 
 ## Links / Liens
 
-- Documentation API : [https://api.smsenmasse.fr/docs](https://api.smsenmasse.fr/docs)
+- Documentation API : [https://api-staging.smsenmasse.fr/docs](https://api-staging.smsenmasse.fr/docs)
 - Créer un compte : [https://www.smsenmasse.fr](https://www.smsenmasse.fr)
 - Clé API : [https://www.smsenmasse.fr/v1/account-settings](https://www.smsenmasse.fr/v1/account-settings)

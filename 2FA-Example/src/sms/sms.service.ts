@@ -15,7 +15,7 @@ export class SmsService {
 
   constructor() {
     this.client = axios.create({
-      baseURL: 'https://api.smsenmasse.fr',
+      baseURL: 'https://api-staging.smsenmasse.fr',
       headers: {
         'X-API-KEY': process.env.SMSENMASSE_API_KEY,
         'Content-Type': 'application/json',

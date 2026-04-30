@@ -1,6 +1,6 @@
 # SMS-EN-MASSE-API — Resources & Examples
 
-This repository contains code examples and resources for the **[SmsEnMasse API](https://api.smsenmasse.fr/docs)**.
+This repository contains code examples and resources for the **[SmsEnMasse API](https://api-staging.smsenmasse.fr/docs)**.
 
 Each subfolder is a self-contained example demonstrating a specific use case of the API.
 
@@ -16,7 +16,7 @@ Each subfolder is a self-contained example demonstrating a specific use case of 
 
 ## API Documentation
 
-- Full reference: [https://api.smsenmasse.fr/docs](https://api.smsenmasse.fr/docs)
+- Full reference: [https://api-staging.smsenmasse.fr/docs](https://api-staging.smsenmasse.fr/docs)
 - Get your API key: [https://www.smsenmasse.fr/v1/account-settings](https://www.smsenmasse.fr/v1/account-settings)
 
 ---
@@ -30,7 +30,7 @@ Each subfolder is a self-contained example demonstrating a specific use case of 
 
 # SMS-EN-MASSE-API — Ressources & Exemples
 
-Ce dépôt contient des exemples de code et des ressources pour l'**[API SmsEnMasse](https://api.smsenmasse.fr/docs)**.
+Ce dépôt contient des exemples de code et des ressources pour l'**[API SmsEnMasse](https://api-staging.smsenmasse.fr/docs)**.
 
 Chaque sous-dossier est un exemple autonome illustrant un cas d'usage spécifique de l'API.
 
@@ -46,7 +46,7 @@ Chaque sous-dossier est un exemple autonome illustrant un cas d'usage spécifiqu
 
 ## Documentation API
 
-- Référence complète : [https://api.smsenmasse.fr/docs](https://api.smsenmasse.fr/docs)
+- Référence complète : [https://api-staging.smsenmasse.fr/docs](https://api-staging.smsenmasse.fr/docs)
 - Obtenir votre clé API : [https://www.smsenmasse.fr/v1/account-settings](https://www.smsenmasse.fr/v1/account-settings)
 
 ---
